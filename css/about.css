@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Gluten:wght@300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: rosybrown;
+    font-family: 'Gluten', cursive;
+    position: relative;
+}
+
+.parent {
+    margin: auto;
+    width: 80%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content {
+    text-align: justify;
+    font-weight: bold;
+}
+
+.parent h1 {
+    text-align: center;
+    font-weight: bold;
+    padding: 5vh 0;
+}
+
+p {
+    color: black;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    margin: 5vh 0;
+    border: 1px solid #ff9999;
+    box-shadow: 3px 3px #ff8080, -1em 0 .4em olive;
+    transition: 0.4s;
+}
+
+.images {
+
+    padding: 0 1vw 0 0;
+
+}
+
+.images img {
+    display: inline;
+    width: 100%;
+
+}
+
+.content {
+    padding: 0 3vw;
+}
+
+section:hover {
+    background-color: #ccff99;
+    transform: rotate(0deg);
+    transition: 0.4s;
+    margin: auto;
+}
+
+.history {
+    transform: rotate(-2deg);
+}
+
+.geography {
+    transform: rotate(5deg);
+}
+
+.people {
+    transform: rotate(-5deg);
+}

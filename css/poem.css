@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Gluten:wght@300&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    font-family: 'Gluten', cursive;
+    background-color: #fff9e6;
+}
+
+.poem {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.poem h1 {
+    text-align: center;
+    padding: 5vh;
+    color: #7e0223;
+}
+
+h2 {
+    padding: 5vh 0 0.5vh;
+    color: #fd81a2;
+}
+
+h3 {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 2vw;
+    padding-bottom: 3vh;
+    color: #359773;
+}
+
+section {
+    border: 1px solid orchid;
+    padding: 0 3vw;
+    margin: 4vh 0;
+    background-color: #FFEBA1;
+    box-shadow: #6F69AC 0px 5px 15px;
+}
